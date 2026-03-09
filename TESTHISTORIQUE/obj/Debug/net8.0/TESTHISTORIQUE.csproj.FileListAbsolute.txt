@@ -1,0 +1,14 @@
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\bin\Debug\net8.0\TESTHISTORIQUE.exe
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\bin\Debug\net8.0\TESTHISTORIQUE.deps.json
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\bin\Debug\net8.0\TESTHISTORIQUE.runtimeconfig.json
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\bin\Debug\net8.0\TESTHISTORIQUE.dll
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\bin\Debug\net8.0\TESTHISTORIQUE.pdb
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.AssemblyInfoInputs.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.AssemblyInfo.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.csproj.CoreCompileInputs.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.dll
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\refint\TESTHISTORIQUE.dll
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.pdb
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\TESTHISTORIQUE.genruntimeconfig.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\TESTHISTORIQUE\obj\Debug\net8.0\ref\TESTHISTORIQUE.dll
