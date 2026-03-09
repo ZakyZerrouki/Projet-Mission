@@ -1,0 +1,125 @@
+﻿<Window x:Class="WpfGestionApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfGestionApplication"
+        mc:Ignorable="d"
+        Title="Gestion Application" Height="450" Width="800">
+
+    <TabControl x:Name="MainTabs">
+
+        <!-- ONGLET 1 : TA PAGE ACTUELLE -->
+        <TabItem Header="Main">
+            <Grid>
+                <!-- Frame pour la Page Gestion Lecture -->
+                <Frame x:Name="MainFrame"
+                   Margin="51,47,0,20"
+                   HorizontalAlignment="Left"
+                   Width="478"/>
+
+                <Grid HorizontalAlignment="Left"
+                  Height="332"
+                  Margin="51,47,0,0"
+                  VerticalAlignment="Top"
+                  Width="690">
+                    <Grid.Background>
+                        <ImageBrush/>
+                    </Grid.Background>
+
+                    <Image Margin="126,-49,126,-16"
+                       Source="/unnamed (6).jpg"
+                       Stretch="Fill"/>
+                </Grid>
+
+                <Button Content="S'authentifer"
+                    HorizontalAlignment="Left"
+                    Height="32"
+                    Margin="10,10,0,0"
+                    VerticalAlignment="Top"
+                    Width="101"
+                    Click="Login_Click"/>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="Gestion" x:Name="Gestion" IsEnabled="False">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="127*"/>
+                    <ColumnDefinition Width="667*"/>
+                </Grid.ColumnDefinitions>
+                <Grid HorizontalAlignment="Left" Height="336" Margin="70,0,0,0" VerticalAlignment="Center" Width="663" Grid.ColumnSpan="2">
+                    <Button x:Name="ButtonQR"
+                        Content="Generateur QR"
+                        HorizontalAlignment="Left"
+                        Height="27"
+                        Margin="534,285,0,0"
+                        VerticalAlignment="Top"
+                        Width="101"
+                        RenderTransformOrigin="0.5,0.5"
+                        Click="ButtonQR_Click">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.463"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+
+                    <Button Content="Ajouter"
+                        HorizontalAlignment="Left"
+                        Height="41"
+                        VerticalAlignment="Top"
+                        Width="132"
+                        Click="GestionAjouterButton_Click"/>
+                </Grid>
+
+                <Button Content="Modifier"
+                    HorizontalAlignment="Left"
+                    Height="41"
+                    Margin="70,178,0,0"
+                    VerticalAlignment="Top"
+                    Width="132" Grid.ColumnSpan="2"/>
+
+                <Button Content="Supprimer"
+                    HorizontalAlignment="Left"
+                    Height="41"
+                    Margin="70,322,0,0"
+                    VerticalAlignment="Top"
+                    Width="132"
+                    RenderTransformOrigin="0.461,0.207" Click="ButtonSupprimer_Click" Grid.ColumnSpan="2"/>
+
+                <!-- QR -->
+                <Image x:Name="qrImageGestion" Margin="478,140,47,140" Grid.Column="1"/>
+
+                <Button x:Name="OpenQR"
+                    Content="Zoom"
+                    HorizontalAlignment="Left"
+                    Height="26"
+                    Margin="591,326,0,0"
+                    VerticalAlignment="Top"
+                    Width="45"
+                    Click="OpenQR_Click"
+                    RenderTransformOrigin="0.203,-0.395" Grid.Column="1"/>
+
+                <DataGrid x:Name="GridMissions" d:ItemsSource="{d:SampleData ItemCount=5}"
+                      Margin="94,34,233,43" AutoGenerateColumns="True"  CanUserAddRows="False"
+                      IsReadOnly="True"  SelectionMode="Single"
+                      SelectionUnit="FullRow"
+                      Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"
+                      Foreground="Black" Grid.Column="1"/>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="Lecture" x:Name="Lecture" IsEnabled="False">
+            <Grid>
+                <DataGrid HorizontalAlignment="Left" Height="357" Margin="212,10,0,0" VerticalAlignment="Top" Width="355" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                <!-- mets ton contenu ici -->
+            </Grid>
+        </TabItem>
+
+    </TabControl>
+
+</Window>

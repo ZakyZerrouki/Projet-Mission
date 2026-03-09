@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfGestionApplication.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfGestionApplication"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="279" Margin="107,70,0,0" VerticalAlignment="Top" Width="600">
+            <Label Content="Password :" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center" Width="110" FontFamily="Arial Nova Cond Light" FontWeight="Bold" FontSize="18"/>
+            <Label Content="Username :" HorizontalAlignment="Left" Height="29" Margin="0,49,0,0" VerticalAlignment="Top" Width="110" FontFamily="Arial Nova Cond Light" FontWeight="Bold" FontSize="18"/>
+            <TextBox HorizontalAlignment="Left" Height="29" Margin="124,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextChanged="TextBox_TextChanged_Username"/>
+            <TextBox HorizontalAlignment="Left" Height="28" Margin="124,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Width="119" TextChanged="TextBox_TextChanged_Password"/>
+            <Button x:Name="ButtonLogin" Content="Login" HorizontalAlignment="Left" Height="29" Margin="300,250,0,0" VerticalAlignment="Top" Width="95" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Click="ButtonLogin_Click"/>
+            <Button x:Name="ButtonAnnuler" Content="Annuler" HorizontalAlignment="Left" Height="29" Margin="467,250,0,0" VerticalAlignment="Top" Width="86" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Click="ButtonAnnuler_Click"/>
+        </Grid>
+
+
+    </Grid>
+</Window>

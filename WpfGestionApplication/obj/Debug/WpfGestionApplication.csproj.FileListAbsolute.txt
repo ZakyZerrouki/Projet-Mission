@@ -1,0 +1,24 @@
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.csproj.AssemblyReference.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\MainWindow.g.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\App.g.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication_MarkupCompile.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication_MarkupCompile.lref
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\bin\Debug\WpfGestionApplication.exe.config
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\bin\Debug\WpfGestionApplication.exe
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\bin\Debug\WpfGestionApplication.pdb
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\MainWindow.baml
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.g.resources
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.Properties.Resources.resources
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.csproj.GenerateResource.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.csproj.CoreCompileInputs.cache
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.exe
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGestionApplication.pdb
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\bin\Debug\QRCoder.dll
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\bin\Debug\QRCoder.xml
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\WpfGesti.2B6C1BB3.Up2Date
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\Login.g.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\Login.baml
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\QR.g.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\QR.baml
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\Ajouter Gestion.g.cs
+C:\Users\anisz\source\repos\WpfGestionApplication\WpfGestionApplication\obj\Debug\Ajouter Gestion.baml
